@@ -1,0 +1,35 @@
+
+Variáveis:
+São espaços na memória que o programador usa
+para armazenar dados para uso futuro.
+
+Operadores Aritiméticos:
++ (soma)
+- (subtração)
+* (multiplicação)
+/ (divisão)
+% (resto)
+** (potenciação)
+
+Operadores de Iteração:
+++ {incremento 1em 1
+-- {decremento 1 em 1
++= {incremento no valor desejado [x+=5 , ou seja, 5 em 5]
+-= {decremento no valor desejado [x-=3, ou seja, 3 em 3]
+*= {multiplicação no valor desejado [x*=2, ou seja, 2 em 2]
+/= {divisão no valor desejado [x/=3, ou seja, 3 em 3]
+
+Operadores Relacionais:
+> (maior que)
+< (menor que)
+>= (maior ou igual)
+<= (menor ou igual)
+== (igual)
+!= (diferente)
+
+Operadores Lógicos:
+&& _ and (e) prevalece o falso
+|| _ or (ou) prevalece o verdadeiro
+! _ not (não)
+
+Exercícios: https://wiki.python.org.br/ListaDeExercicios
