@@ -1,0 +1,36 @@
+<html>
+	<script>
+		let n1 = parseFloat(prompt('digite nota1'));
+		let n2 = parseFloat(prompt('digite nota2'));
+		let n3 = parseFloat(prompt('digite nota3'));
+		
+		let media = (n1+n2+n3) /3;
+		
+		alert ('sua média é:' + media);
+
+
+		if (media >= 7) {
+			alert ('Parabéns. Aprovado com média ' + media.toFixed(2));
+			
+		} else if (media < 5) {
+			alert ('Que pena. Reprovado com média ' + media.tofixed(2));
+		} else {
+			alert ('Quase! Você está em recuperação com média ' + media.toFixed(2));
+			let n4 = parseFloat(prompt('Informe a nota 4'));
+			media = (media + nota4) / 2;
+			if (media >=7) {
+				alert ('Aprovado com média' + media.toFixed(2));				
+
+			} else {
+				alert ('Reprovado com média ' + media.toFixed(2));
+			}
+		} 
+		
+			
+
+
+
+
+
+	</script>
+</html>

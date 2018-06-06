@@ -33,3 +33,13 @@ Operadores Lógicos:
 ! _ not (não)
 
 Exercícios: https://wiki.python.org.br/ListaDeExercicios
+
+_____________________________________________________________________________________________
+
+Estruturas de Decisão:
+
+IF/ElSE
+
+SWITCH/CASE
+Exercícios: https://wiki.python.org.br/ListaDeExercicios
+Do 1 ao 5
