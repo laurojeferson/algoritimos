@@ -1,0 +1,32 @@
+<html>
+<meta charset="utf-8"/> <!-- Faça um Programa que leia três números e mostre o maior e o menor deles. -->
+	
+	<script>
+		let n1 = parseInt(prompt('Digite um número'));
+		let n2 = parseInt(prompt('Digite um outro número'));
+		let n3 = parseInt(prompt('Digite um mais outro número'));
+
+		let auxiliar; 
+
+		if (n1 > n2) {
+		auxiliar = n1;
+		n1 = n2;
+		n2 = auxiliar;
+
+	} if (n2 > n3) {
+		auxiliar = n2;
+		n2 = n3;
+		n3 = auxiliar;
+		
+	} if (n1 > n2) {
+		auxiliar = n1;
+		n1 = n2;
+		n2 = auxiliar;
+	}
+
+	alert (n1 + '->' + n2 + '->' + n3);
+ 
+	
+	</script>
+
+</html>
