@@ -1,0 +1,22 @@
+<html>
+	<meta charset="utf-8"/> <!-- Altere o programa anterior permitindo ao usuário informar as populações e as taxas de crescimento iniciais. Valide a entrada e permita repetir a operação -->
+
+	<script type="text/javascript">
+
+		let pop_a = 80000;
+		let pop_b = 200000;
+		let quant_tempo = 0;
+
+
+		for (let i = 0; pop_a < pop_b; i++) {
+			pop_a = pop_a * 1.03;
+			pop_b = pop_b * 1.015;
+			quant_tempo = i;
+		}
+		
+		alert(quant_tempo);
+	</script>
+
+
+
+</html>

@@ -43,3 +43,33 @@ IF/ElSE
 SWITCH/CASE
 Exercícios: https://wiki.python.org.br/ListaDeExercicios
 Do 1 ao 5
+
+_____________________________________________________________________________________________
+
+Estruturas de Repetição (laço ou loop):
+
+FOR
+	for (ponto de partida; condição de parada; condição de iteração) {
+	procedimentos;
+	break;
+	}
+
+	ex: j=0 (ponto de partida);
+		j<30 (condição de parada);
+		j+=2 (iteração)
+
+obs: let é uma variável local;
+		var é uma variável global.
+
+WHILE (enquanto)
+ 	while (condição) {
+ 	procedimentos;
+ 	break;
+ 	}	
+
+DO
+	do {
+	procedimentos;
+	break;
+	} 	while (condição);	
+
