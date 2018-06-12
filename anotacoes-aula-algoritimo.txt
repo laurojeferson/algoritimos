@@ -1,23 +1,23 @@
 
-Variáveis:
-São espaços na memória que o programador usa
+Variï¿½veis:
+Sï¿½o espaï¿½os na memï¿½ria que o programador usa
 para armazenar dados para uso futuro.
 
-Operadores Aritiméticos:
+Operadores Aritimï¿½ticos:
 + (soma)
-- (subtração)
-* (multiplicação)
-/ (divisão)
+- (subtraï¿½ï¿½o)
+* (multiplicaï¿½ï¿½o)
+/ (divisï¿½o)
 % (resto)
-** (potenciação)
+** (potenciaï¿½ï¿½o)
 
-Operadores de Iteração:
-++ {incremento 1em 1
+Operadores de Iteraï¿½ï¿½o:
+++ {incremento 1 em 1
 -- {decremento 1 em 1
 += {incremento no valor desejado [x+=5 , ou seja, 5 em 5]
 -= {decremento no valor desejado [x-=3, ou seja, 3 em 3]
-*= {multiplicação no valor desejado [x*=2, ou seja, 2 em 2]
-/= {divisão no valor desejado [x/=3, ou seja, 3 em 3]
+*= {multiplicaÃ§Ã£oo no valor desejado [x*=2, ou seja, 2 em 2]
+/= {divisï¿½o no valor desejado [x/=3, ou seja, 3 em 3]
 
 Operadores Relacionais:
 > (maior que)
@@ -27,42 +27,42 @@ Operadores Relacionais:
 == (igual)
 != (diferente)
 
-Operadores Lógicos:
+Operadores Lï¿½gicos:
 && _ and (e) prevalece o falso
 || _ or (ou) prevalece o verdadeiro
-! _ not (não)
+! _ not (nï¿½o)
 
-Exercícios: https://wiki.python.org.br/ListaDeExercicios
+Exercï¿½cios: https://wiki.python.org.br/ListaDeExercicios
 
 _____________________________________________________________________________________________
 
-Estruturas de Decisão:
+Estruturas de Decisï¿½o:
 
 IF/ElSE
 
 SWITCH/CASE
-Exercícios: https://wiki.python.org.br/ListaDeExercicios
+Exercï¿½cios: https://wiki.python.org.br/ListaDeExercicios
 Do 1 ao 5
 
 _____________________________________________________________________________________________
 
-Estruturas de Repetição (laço ou loop):
+Estruturas de Repetiï¿½ï¿½o (laï¿½o ou loop):
 
 FOR
-	for (ponto de partida; condição de parada; condição de iteração) {
+	for (ponto de partida; condiï¿½ï¿½o de parada; condiï¿½ï¿½o de iteraï¿½ï¿½o) {
 	procedimentos;
 	break;
 	}
 
 	ex: j=0 (ponto de partida);
-		j<30 (condição de parada);
-		j+=2 (iteração)
+		j<30 (condiï¿½ï¿½o de parada);
+		j+=2 (iteraï¿½ï¿½o)
 
-obs: let é uma variável local;
-		var é uma variável global.
+obs: let ï¿½ uma variï¿½vel local;
+		var ï¿½ uma variï¿½vel global.
 
 WHILE (enquanto)
- 	while (condição) {
+ 	while (condiï¿½ï¿½o) {
  	procedimentos;
  	break;
  	}	
@@ -71,5 +71,5 @@ DO
 	do {
 	procedimentos;
 	break;
-	} 	while (condição);	
+	} 	while (condiï¿½ï¿½o);	
 
