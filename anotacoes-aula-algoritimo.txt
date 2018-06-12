@@ -27,29 +27,33 @@ Operadores Relacionais:
 == (igual)
 != (diferente)
 
-Operadores L�gicos:
+Operadores Lógicos:
 && _ and (e) prevalece o falso
 || _ or (ou) prevalece o verdadeiro
-! _ not (n�o)
+! _ not (não)
 
-Exerc�cios: https://wiki.python.org.br/ListaDeExercicios
+Exercícios: https://wiki.python.org.br/ListaDeExercicios
 
 _____________________________________________________________________________________________
 
-Estruturas de Decis�o:
+Estruturas de Decisão:
 
-IF/ElSE
+IF/ElSE 
+	if = Se, else = Senão, 
+	então o else if é "senao se " ou seja se a condicao anterior não for verdadeira verifique uma nova condicao.
 
 SWITCH/CASE
-Exerc�cios: https://wiki.python.org.br/ListaDeExercicios
+	
+
+Exercícios: https://wiki.python.org.br/ListaDeExercicios
 Do 1 ao 5
 
 _____________________________________________________________________________________________
 
-Estruturas de Repeti��o (la�o ou loop):
+Estruturas de Repetição (laço ou loop):
 
 FOR
-	for (ponto de partida; condi��o de parada; condi��o de itera��o) {
+	for (ponto de partida; condição de parada; condição de iteração) {
 	procedimentos;
 	break;
 	}
