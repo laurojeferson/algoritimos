@@ -59,14 +59,14 @@ FOR
 	}
 
 	ex: j=0 (ponto de partida);
-		j<30 (condi��o de parada);
-		j+=2 (itera��o)
+		j<30 (condição de parada);
+		j+=2 (iteração)
 
-obs: let � uma vari�vel local;
-		var � uma vari�vel global.
+obs: let é uma vari�vel local;
+	var é uma vari�vel global.
 
 WHILE (enquanto)
- 	while (condi��o) {
+ 	while (condição) {
  	procedimentos;
  	break;
  	}	
@@ -75,5 +75,9 @@ DO
 	do {
 	procedimentos;
 	break;
-	} 	while (condi��o);	
+	} 	while (condição);
+
+_____________________________________________________________________________________________
+
+
 
