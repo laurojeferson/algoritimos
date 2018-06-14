@@ -79,5 +79,17 @@ DO
 
 _____________________________________________________________________________________________
 
+Dicas de Estudo de Programação para Iniciantes:
+
+https://www.codecademy.com/pt-BR > procurar o link: Welcome to Codecademy;
+https://www.urionlinejudge.com.br;
+Livro Lógica de Programação (Cód: 9211555) Silveira, Paulo / Almeida, Adriano;
+Site Careercup (site de problemas de programção direcionado para a seleção de candidatos ao Google, Microsoft, etc...);
+
+______________________________________________________________________________________________
+
+Teclas de atalho:
+Formatar o código (shift + alt + F)
+
 
 

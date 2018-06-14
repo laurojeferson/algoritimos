@@ -1,0 +1,29 @@
+<html>
+	<meta charset="utf-8"/> 
+
+	<script>
+
+        let numeros = new Array (10);
+        let pares = [];
+        let impares = [];
+		
+        let  index_par = 0, index_impar = 0;
+
+        for (let i = 0; i < numeros.lenght; i++) {
+            numeros[i] = parseInt(prompt('Numero ' + (i+1)));
+            let resto = numeros[i] % 2;
+            if (resto == 0) {
+                pares[index_par] = numeros[i];
+                index_par++;
+            } else {
+                impares[index_impar] = numeros[i];
+                index_impar++;
+            }
+        }    
+            alert (numeros);
+            alert(pares);
+            alert (impares);
+		
+    </script>
+    
+</html>

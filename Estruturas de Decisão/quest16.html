@@ -1,0 +1,64 @@
+<html>
+<meta charset="utf-8" />
+
+<!-- Faça um programa que calcule as raízes de uma equação do segundo grau, na forma ax2 + bx + c. 
+    O programa deverá pedir os valores de a, b e c e fazer as consistências, informando ao usuário nas seguintes situações:
+Se o usuário informar o valor de A igual a zero, a equação não é do segundo grau 
+    e o programa não deve fazer pedir os demais valores, sendo encerrado;
+Se o delta calculado for negativo, a equação não possui raizes reais. Informe ao usuário e encerre o programa;
+Se o delta calculado for igual a zero a equação possui apenas uma raiz real; informe-a ao usuário;
+Se o delta for positivo, a equação possui duas raiz reais; informe-as ao usuário; -->
+
+<script>
+
+    let a = parseInt(prompt('valor de a '));
+
+    if (a == 0) {
+        alert('a equação não é de 2º grau ');
+    } else {
+        let b = parseInt(prompt('valor de b '));
+        let c = parseInt(prompt('valor de c '));
+
+        let delta = (b ** 2) - (4 * a * c);
+
+        if (delta < 0) {
+            alert('não possui raízes reais ' + delta);
+        } else if (delta == 0) {
+            alert('apenas uma raiz real ' + delta);
+        } else {
+            alert('a equação possui duas raízes reais ' + delta);
+        }
+    }
+
+    /*
+    let a = parseInt(prompt('valor de a '));
+    let b = parseInt(prompt('valor de b '));
+    let c = parseInt(prompt('valor de c '));
+
+    if (a == 0) {
+        alert('a equação não é de 2º grau ');
+    } else {
+        
+
+        let delta = (b ** 2) - (4 * a * c);
+
+        if (delta < 0) {
+            alert('não possui raízes reais ' + delta);
+        } else if (delta == 0) {
+            alert('apenas uma raiz real ' + delta);
+        } else {
+            alert('a equação possui duas raízes reais ' + delta);
+        }
+    }
+    */
+
+
+
+       
+
+
+
+
+</script>
+
+</html>
