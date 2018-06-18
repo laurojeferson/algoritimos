@@ -1,0 +1,32 @@
+<html>
+<meta charset="utf-8" />
+
+<script>
+    /*Faça um Programa que peça as quatro notas de 03 alunos,
+    calcule e armazene num vetor a média de cada aluno,
+    imprima o número de alunos com média maior ou igual a 7.0.*/
+
+    let medias = new Array(3);
+
+    for (let i = 0; i < 3; i++) {
+        let nome = prompt('Digite o nome do aluno ' + (i + 1));
+        let total = 0;
+
+        for (let j = 0; j < 4; j++) {
+            let nota = parseFloat(prompt('Digite a nota ' + (j + 1) + ' de ' + nome));
+            total += nota;
+        }
+
+        medias[i] = total / 4;
+    }
+
+    let acima = 0;
+    for (let i = 0; i < 3; i++) {
+        if (medias[i] >= 7) {
+            acima++;
+        }
+    }
+    alert(acima);		
+</script>
+
+</html>

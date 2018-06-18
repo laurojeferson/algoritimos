@@ -1,26 +1,16 @@
 <html>
-    <!-- Faça um Programa que leia três números e mostre-os em ordem decrescente. -->
-    
-    <script>
-        let n1 = prompt ('Digite um número');
-        let n2 = prompt ('Digite um número');
-        let n3 = prompt ('Digite um número');
-        
-        if (n1 > n2 && n3) {
-            maior = n1;
-        } if (n2 > n1 && n3) {
-            maior = n2;
-        } if (n3 > n1 && n2) {
-            maior = n3;
-        } if (n1 < n2 && n3) {
-            menor = n1;
-        } if (n2 < n1 && n3) {
-            menor = n2;
-        } if (n3 < n1 && n2) {
-           menor = n3;
-        }      
-        
+<!-- Faça um Programa que leia três números e mostre-os em ordem decrescente. -->
 
-        
-    </script>
+<script>
+    let vetor = new Array(3);
+
+    for(i = 1; i < 4; i++){
+        vetor[i] = parseInt(prompt("Informe o valor: " + i));
+
+    }   
+
+    alert(vetor.reverse()); 
+   
+</script>
+
 </html>
