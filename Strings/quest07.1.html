@@ -1,0 +1,22 @@
+<html>
+<meta charset="UTF-8">
+<!--Conta espaços e vogais. Dado uma string com uma frase informada pelo usuário (incluindo espaços em branco), conte:
+quantos espaços em branco existem na frase.
+quantas vezes aparecem as vogais a, e, i, o, u.-->
+<script>
+    let espacos = 0, vogais = 0;
+    let regex = "[aeiou]";
+    let frase = "gato de botas";
+    for (let i = 0; i < frase.length; i++) {
+        let letra = frase.toLowerCase().charAt(i);
+        if (letra == ' ') {
+            espacos++;
+        } else if (letra.search(regex) != -1) {
+            vogais++;
+        }
+    }
+    alert('Espaços: ' + espacos);
+    alert('Vogais: ' + vogais);
+</script>
+
+</html>

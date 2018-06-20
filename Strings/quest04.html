@@ -1,20 +1,14 @@
 <html>
 <meta charset="UTF-8">
 <!--Nome na vertical em escada. Modifique o programa anterior de forma a mostrar o nome em formato de escada.-->
-<script>
-    let nome = prompt("Digite o seum nome: ");
-    let array = nome.split ("");
-    let texto = "";
-    let i;
+<script>   
+    let nome = prompt("Digite o seu nome")
+    let nome_escada = "";
 
-    for (i = 0; i < array.length; i++) {
-        texto += array[i] + "\n";
+    for (let i = 0; i < nome.length; i++) {
+        nome_escada += nome.substr(0, i + 1) + "\n";
     }
-
-    alert (texto);
-    
-
-  
-   
+    alert(nome_escada);
 </script>
+
 </html>
