@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+    </head>
+<!-- Faça um Programa que peça a idade e a altura de 5 pessoas, armazene cada informação no seu respectivo vetor.
+     Imprima a idade e a altura na ordem inversa a ordem lida. -->
+    <script>
+         
+         let idade = new Array (5);
+         let altura = new Array (5);
+    
+
+    for (let i = 1 ; i < 3; i++) {
+      idade [i] = parseInt(prompt('Informe a ' + i + "ª" + " idade: "));
+      altura [i] = parseFloat(prompt('Informe a ' + i + "ª" + " altura: "));
+    }
+
+    alert ("As idades são: " + idade.reverse() + "\nAs alturas são: " + altura.reverse());
+        
+    </script>
+
+</html>

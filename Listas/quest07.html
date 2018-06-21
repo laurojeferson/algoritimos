@@ -1,0 +1,19 @@
+
+<html> 
+    <!-- Faça um Programa que leia um vetor de 5 números inteiros, mostre a soma, a multiplicação
+         e os números. -->
+    <script>
+    let vetor = new Array (0);
+    soma = 0;
+    mult = 1;
+
+    for (let i = 0 ; i < 5; i++) {
+        vetor [i] = parseInt(prompt('Informe o vetor ' + i ));
+        soma += vetor [i]; 
+        mult *= vetor [i];
+    }
+
+    alert ("Os vetores foram: " + vetor + "\nA soma foi: " + soma + "\nA multiplicação foi: " + mult);
+
+    </script>
+</html>
