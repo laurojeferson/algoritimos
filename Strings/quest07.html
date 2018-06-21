@@ -1,0 +1,20 @@
+<html>
+<meta charset="UTF-8">
+<!--Conta espaços e vogais. Dado uma string com uma frase informada pelo usuário (incluindo espaços em branco), conte:
+quantos espaços em branco existem na frase.
+quantas vezes aparecem as vogais a, e, i, o, u.-->
+<script>
+    let espacos = 0, vogais = 0;
+    let frase = prompt("Digite uma frase");
+    for (let i=0; i<frase.length; i++){
+        let code = frase.toLowerCase().charCodeAt(i);
+        if (code == 32) {
+            espacos++;
+        } else if (code==97 || code==101 || code==105 || code==111 || code==117){
+            vogais ++;
+        }
+    }
+    alert ('Espaços: ' + espacos);
+    alert ('Vogais' + vogais);
+</script>
+</html>

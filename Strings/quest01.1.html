@@ -1,0 +1,32 @@
+<html>
+<meta charset="UTF-8">
+<!-- Tamanho de strings.
+Faça um programa que leia 2 strings e informe o conteúdo delas seguido do seu comprimento.
+Informe também se as duas strings possuem o mesmo comprimento e são iguais ou diferentes no conteúdo.
+
+Compara duas strings
+String 1: Brasil Hexa 2006
+String 2: Brasil! Hexa 2006!
+Tamanho de "Brasil Hexa 2006": 16 caracteres
+Tamanho de "Brasil! Hexa 2006!": 18 caracteres
+As duas strings são de tamanhos diferentes.
+As duas strings possuem conteúdo diferente.-->
+
+<script>
+    let texto1 = prompt("Digite o texto 1: ");
+    let texto2 = prompt("Digite o texto 2: ");
+    let resultado = "";
+    /* Outra forma:
+    resultado += texto1 + " : " + texto1.length + " caracteres\n";
+    resultado += texto2 + " : " + texto2.length + " caracteres";
+    let eh_igual = texto1.length == texto2.length ? "São iguais" : "São diferentes";*/     
+    let eh_igual = "";
+    if (texto1.length == texto2.length) {
+        eh_igual = "São iguais";
+    } else {
+        eh_igual = "São diferentes";
+    }
+    alert(resultado + "\n" + eh_igual);
+</script>
+
+</html>

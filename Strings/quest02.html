@@ -1,0 +1,18 @@
+<html>
+<meta charset="UTF-8">
+<!-- 
+Nome ao contrário em maiúsculas. 
+Faça um programa que permita ao usuário digitar o seu nome 
+e em seguida mostre o nome do usuário de trás para frente utilizando somente letras maiúsculas.
+Dica: lembre−se que ao informar o nome o usuário pode digitar letras maiúsculas ou minúsculas. -->
+<script>
+    let nome = prompt ('Digite o seu nome: ').toUpperCase();
+    let nome_invertido = "";
+    for (let i = nome.length-1; i >= 0; i--) {
+        nome_invertido += nome.charAt(i);
+    }
+    /*Outra forma (sem o for):
+    nome_invertido = nome.split("").reverse().join("");*/
+    alert (nome_invertido);   
+</script>
+</html>

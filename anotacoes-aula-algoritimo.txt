@@ -80,7 +80,7 @@ DO
 _____________________________________________________________________________________________
 
 Dicas de Estudo de Programação para Iniciantes:
-
+Estude JavaScript no W3schools;
 https://www.codecademy.com/pt-BR > procurar o link: Welcome to Codecademy;
 https://www.urionlinejudge.com.br;
 Livro Lógica de Programação (Cód: 9211555) Silveira, Paulo / Almeida, Adriano;
@@ -90,6 +90,20 @@ ________________________________________________________________________________
 
 Teclas de atalho:
 Formatar o código (shift + alt + F)
+
+_______________________________________________________________________________________________
+Array -> Array Methods;
+Strings -> Strings Methods;
+RegExp (Expressao Regular) "Esse conteúdo é complexo"
+Math -> Random
+Numbers -> Numbers Methods
+Boleans
+Comparisons
+Conditions
+Switch
+Loop For
+Loop While
+
 
 
 

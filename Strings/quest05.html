@@ -1,0 +1,12 @@
+<html>
+<meta charset="UTF-8">
+<!--Nome na vertical em escada invertida. Altere o programa anterior de modo que a escada seja invertida.-->
+<script>
+    let nome = prompt("Digite o seu nome")
+    let nome_escada_invertida = "";
+    for (let i = nome.length; i >= 0; i--) {
+        nome_escada_invertida += nome.substr(0, i+1) + "\n";
+    }
+    alert (nome_escada_invertida);   
+</script>
+</html>
