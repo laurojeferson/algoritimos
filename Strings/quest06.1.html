@@ -1,15 +1,28 @@
 <html>
-    <meta charset="UTF-8"/>
-    <script>
-    let dia, mes, ano = prompt('Data (dd/mm/aaaa): ').split('/');
-    let meses = ['janeiro','fevereiro','março','abril',
-         'maio','junho','julho','agosto','setembro',
-         'outubro','novembro','dezembro'];
+<meta charset="UTF-8">
+<!--Data por extenso. 
+        Faça um programa que solicite a data de nascimento (dd/mm/aaaa) do usuário
+        e imprima a data com o nome do mês por extenso.
+        Data de Nascimento: 29/10/1973
+        Você nasceu em  29 de Outubro de 1973.-->
+<script>  
+    let meses = ['janeiro', 'fevereiro', 'março', 'abril',
+        'maio', 'junho', 'julho', 'agosto', 'setembro',
+        'outubro', 'novembro', 'dezembro'];
 
-         for (i = 0; i < meses.length; i++)
+    let data = prompt('Digite a data de nascimento \n(dd/mm/aaaa)');
 
-         alert('Você nasceu em: ');
-       
+    let data2 = data.split('/');
 
-    </script>
+    let dia = parseInt(data2[0]);
+    let mes = parseInt(data2[1]);
+    let ano = parseInt(data2[2]);
+
+    let data_extenso = dia + " de " + meses[mes-1] + " de " + ano;
+
+    alert(data_extenso);
+
+
+</script>
+
 </html>

@@ -91,5 +91,19 @@ ________________________________________________________________________________
 Teclas de atalho:
 Formatar o código (shift + alt + F)
 
+_______________________________________________________________________________________________
+Array -> Array Methods;
+Strings -> Strings Methods;
+RegExp (Expressao Regular) "Esse conteúdo é complexo"
+Math -> Random
+Numbers -> Numbers Methods
+Boleans
+Comparisons
+Conditions
+Switch
+Loop For
+Loop While
+
+
 
 
