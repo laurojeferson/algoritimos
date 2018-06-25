@@ -1,0 +1,22 @@
+<html>
+    <script>
+    let data = new Date(prompt("Digite a data.").split('/').reverse()); /*Usará a data do sistema operacional, 
+    porém usa o padrão internacional. Para inserir a data no padrão nacional no prompt, fazer um split e um reverse*/
+
+    let dias_semana = ['dom','seg','ter','qua','qui','sex','sab']; //Para padrão nacional, ciar um vetor para converter.
+
+    let dia_semana = dias_semana[data.getDay()]; //Função dentro do vetor.
+
+    let dia_mes = data.getDate(); //Não necessário.
+
+    let meses = ['jan', 'fev','mar','abr','mai','jun','jul','ago','set','out','nov','dez']; //Vetor para converter.
+
+    let mes_extenso = meses[data.getMonth()]; //Função dentro do vetor.
+
+    let ano = data.getFullYear(); //Não necessita criar um vetor.
+
+    let data_extenso = dia_semana + ', ' + dia_mes + ' de ' + mes_extenso + ' de ' + ano; //Junção dos procedimentos.
+
+    alert (data_extenso); //Resultado.
+    </script>
+</html>

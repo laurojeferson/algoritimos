@@ -96,13 +96,19 @@ Array -> Array Methods;
 Strings -> Strings Methods;
 RegExp (Expressao Regular) "Esse conteúdo é complexo"
 Math -> Random
-Numbers -> Numbers Methods
-Boleans
-Comparisons
-Conditions
-Switch
-Loop For
-Loop While
+Numbers -> Numbers Methods;
+Boleans;
+Comparisons;
+Conditions;
+Switch;
+Loop For;
+Loop While;
+Dates;
+Dates Formats;
+Date Get Methods;
+Date Set Methods;
+
+JS HTML DOM;
 
 
 
