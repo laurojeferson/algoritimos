@@ -1,0 +1,26 @@
+<html>
+<!-- Faça um programa para imprimir:
+    1
+    1   2
+    1   2   3
+    .....
+    1   2   3   ...  n
+Para um n informado pelo usuário. Use uma função que receba um valor n inteiro imprima até a n-ésima linha. -->
+<script>
+    function piramide(numero) {
+        let resultado = '';
+        for (let i = 1; i <= numero; i++) {
+            for (let j = 1; j <= i; j++) {
+                resultado += j + ' ';
+            }
+            resultado += '\n';
+        }
+        return resultado;
+    }
+    let texto = piramide(20);
+
+    alert(texto);
+
+</script>
+
+</html>

@@ -1,0 +1,25 @@
+<html>
+    <script>
+    function mensagem(texto) {
+        alert (texto);
+    }
+    function soma(num1, num2) {
+        let resultado = numero1 + numero2;
+        return resultado;
+    }
+    function fatorial (numero) {
+        let resultado = 1;
+        for (let i = numero; i > 0; i--) {
+            resultado *=i;
+        }
+        return resultado;
+    } 
+    let teste = fatorialRecusivo(5);
+
+    function fatorialRecusivo(numero) {
+        return numero == 1 ? 1 : fatorialRecusivo(numero - 1) * numero;
+    }
+
+    alert(teste);
+    </script>
+</html>
