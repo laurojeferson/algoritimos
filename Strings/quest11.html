@@ -1,5 +1,5 @@
 <html>
-    <script>
+<script>
     let palavras = ['abacaxi', 'uva', 'maca', 'salmao', 'carrossel'];
     let index = Math.floor(Math.random() * palavras.length);
 
@@ -11,8 +11,8 @@
     let erros = 0;
 
     while (resultado.join('').search('_') != -1 &&
-    erros < 6 &&
-    tentativa < palavras[index].length * 2) {
+        erros < 6 &&
+        tentativa < palavras[index].length * 2) {
         alert(resultado.join(' '));
         let achei = false;
         let letra = prompt('Digite uma letra').toLowerCase().charAt(0);
@@ -28,5 +28,6 @@
         }
         tentativa++;
     }
-    </script>
+</script>
+
 </html>
